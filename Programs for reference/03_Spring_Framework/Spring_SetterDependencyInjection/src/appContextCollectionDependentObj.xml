@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="ans1" class="myPackCollectionDependentObj.Answer">
+		<property name="id" value="1"></property>
+		<property name="aName" value="Java is a programming language and computing platform first released by Sun Microsystems in 1995."></property>
+		<property name="by" value="https://www.java.com"></property>
+	</bean>
+	
+	<bean id="ans2" class="myPackCollectionDependentObj.Answer">
+		<property name="id" value="2"></property>
+		<property name="aName" value="Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."></property>
+		<property name="by" value="https://en.wikipedia.org/wiki/Java_(programming_language)"></property>
+	</bean>
+	<bean id="ans3" class="myPackCollectionDependentObj.Answer">
+		<property name="id" value="2"></property>
+		<property name="aName" value="Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself."></property>
+		<property name="by" value="https://aws.amazon.com/what-is/java/"></property>
+	</bean>
+	
+	<bean id="q1" class="myPackCollectionDependentObj.Question">
+		<property name="id" value ="1"></property>
+		<property name="qName" value = "What is Java?"></property>
+		<property name="answers">
+			<list>
+				<ref bean="ans1"/>
+				<ref bean="ans2"/>
+				<ref bean="ans3"/>
+			</list>			
+		</property>
+	</bean>
+</beans>

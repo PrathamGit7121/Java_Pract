@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Feb/2023:16:57:13 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:14 +0530] "GET /JSP_LoanInterestCalculator/LoanCalci.PNG HTTP/1.1" 200 29227
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:14 +0530] "GET /JSP_LoanInterestCalculator/index.jsp HTTP/1.1" 200 1710
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:14 +0530] "GET /JSP_LoanInterestCalculator/index.jsp HTTP/1.1" 200 1710
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:14 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:14 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:35 +0530] "POST /JSP_LoanInterestCalculator/controller.jsp HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:57:44 +0530] "POST /JSP_LoanInterestCalculator/controller.jsp HTTP/1.1" 200 1162
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:58:03 +0530] "POST /JSP_LoanInterestCalculator/controller.jsp HTTP/1.1" 200 1184
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:16:58:22 +0530] "POST /JSP_LoanInterestCalculator/controller.jsp HTTP/1.1" 200 1162
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:17:04:57 +0530] "GET /JSP_LoanInterestCalculator/index.jsp HTTP/1.1" 200 1710
+0:0:0:0:0:0:0:1 - - [08/Feb/2023:17:05:09 +0530] "POST /JSP_LoanInterestCalculator/controller.jsp HTTP/1.1" 500 1089

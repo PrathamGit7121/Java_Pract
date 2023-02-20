@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;myPack.AnnotationDemo&apos; to &apos;TestAnnotationDemo&apos;&#x0D;&#x0A;- Original project: &apos;Spring_AnnotationDemo&apos;&#x0D;&#x0A;- Original element: &apos;myPack.AnnotationDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;myPack.TestAnnotationDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AnnotationDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;myPack{AnnotationDemo.java[AnnotationDemo" matchStrategy="1" name="TestAnnotationDemo" qualified="false" references="true" similarDeclarations="false" stamp="1674016748454" textual="false" version="1.0"/>
+</session>

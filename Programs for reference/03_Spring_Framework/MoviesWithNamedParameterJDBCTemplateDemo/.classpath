@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/commons-dbcp2-2.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/commons-pool2-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/mysql-connector-java-5.1.29-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-beans-6.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-context-6.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-core-6.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-expression-6.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-jdbc-6.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Subject/FYMCA_Advanced_JAVA/01Advanced_JAVA_SH2022/JAR_Files/SpringJDBC/spring-tx-6.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

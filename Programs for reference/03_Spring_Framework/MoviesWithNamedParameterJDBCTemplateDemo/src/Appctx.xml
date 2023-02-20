@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="ds" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/moviedb" />
+        <property name="username" value="root" />
+        <property name="password" value="" />
+    </bean>
+    
+	<bean id="namedParameterJdbcTemplate" class="org.springframework.jdbc.core.NamedParameterJdbcTemplate">  
+		<property name="dataSource" ref="ds" />  
+	</bean>  
+	  
+	<bean id="movieBean1" class="in.ac.famt.MovieDAO">  
+		<property name="namedParaJdbcTemp" ref="namedParameterJdbcTemplate" />  
+	</bean>
+	
+	<bean id="m1" class="myPack.Movies">
+		<property name="movid" value="15"/>
+		<property name="title" value="Roja"/>
+		<property name="actor" value="ABC"/>
+	</bean> 
+</beans>

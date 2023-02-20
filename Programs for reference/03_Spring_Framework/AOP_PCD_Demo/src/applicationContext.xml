@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xmlns:aop="http://www.springframework.org/schema/aop"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd   
+    http://www.springframework.org/schema/aop   
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">  
+    
+    <aop:aspectj-autoproxy  proxy-target-class="true"/> 
+	  
+  	<bean id="emp1" class="myPack.Employee">  
+  		<property name="eid" value="112"></property> 
+  		<property name="ename" value="Sachin"></property>
+  		<property name="designation" value="Manager"></property>
+  		<property name="basic" value="35000"></property>
+  	</bean>
+      
+    <bean id="aopEmp" class="myPack.AOPEmployee"></bean>  
+      
+        
+	<!-- <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"></bean> -->
+
+</beans> 

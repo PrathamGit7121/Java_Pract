@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;myPack.AOPBeforeTest&apos; to &apos;AOPTest&apos;&#x0D;&#x0A;- Original project: &apos;AOP_AspectJ_Annotation&apos;&#x0D;&#x0A;- Original element: &apos;myPack.AOPBeforeTest&apos;&#x0D;&#x0A;- Renamed element: &apos;myPack.AOPTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AOPBeforeTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;myPack{AOPBeforeTest.java[AOPBeforeTest" matchStrategy="1" name="AOPTest" qualified="false" references="true" similarDeclarations="false" stamp="1675327787863" textual="false" version="1.0"/>
-</session>

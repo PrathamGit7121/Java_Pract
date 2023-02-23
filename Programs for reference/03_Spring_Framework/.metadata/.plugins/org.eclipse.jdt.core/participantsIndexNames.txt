@@ -1,7 +1,0 @@
-INDEX VERSION 1.131
-C:\Subject\FYMCA_Advanced_JAVA\01Advanced_JAVA_SH2022\Java_prog\03_Spring_Framework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\21366335.index
-\JSP_Actions\src\main\java
-C:\Subject\FYMCA_Advanced_JAVA\01Advanced_JAVA_SH2022\Java_prog\03_Spring_Framework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\134358668.index
-\JSP_JDBC\src\main\java
-C:\Subject\FYMCA_Advanced_JAVA\01Advanced_JAVA_SH2022\Java_prog\03_Spring_Framework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\577497217.index
-\JSP_LoanInterestCalculator\src\main\java
